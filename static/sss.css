@@ -1,0 +1,90 @@
+
+.a{
+    background-image: url('consulting-doctor41.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:800px;
+}
+.f1{
+    position:relative;
+    left:530px;
+    top:180px;
+    font-size:50px;
+    color:rgb(1 112 121);
+}
+.name{
+    position: relative;
+    left: 370px;
+    top: 230px;
+    font-size:25px;
+    color:rgb(1 112 121);
+}
+.name1{
+    position: relative;
+    left: 400px;
+    top: 230px;
+    font-size:25px;
+    color:rgb(1 112 121);
+    border-radius:6px;
+    background-color:transparent;
+    width:300px  
+}
+.mail{
+    position: relative;
+    left: -7px;
+    top: 300px;
+    font-size:25px;
+    color:rgb(1 112 121);
+}
+.mail1{
+    position: relative;
+    left: 20px;
+    top: 300px;
+    font-size:25px;
+    color:rgb(1 112 121);
+    border-radius:6px;
+    background-color:transparent;
+    width:300px
+}
+.pass{
+    position: relative;
+    left: -410px;
+    top: 370px;
+    font-size:25px;
+    color:rgb(1 112 121);
+}
+.pass1{
+    position: relative;
+    left: -399px;
+    top: 370px;
+    font-size:25px;
+    color:rgb(1 112 121);
+    border-radius:6px;
+    background-color:transparent;
+    width:300px
+}
+.sub1{
+    position: relative;
+    left: -610px;
+    top: 450px;
+    font-size:25px;
+    color:rgb(1 112 121);
+    border-radius: 6px;
+    width:100px;
+    height:40px;
+}
+.inv{
+    position:relative;
+    top:-530px;
+    left:550px;
+    font-size:20px;
+    color:#8a8484;
+    
+}
+.already{
+    position:relative;
+    top:-530px;
+    left:550px;
+    font-size:20px;
+    color:#8a8484;
+}

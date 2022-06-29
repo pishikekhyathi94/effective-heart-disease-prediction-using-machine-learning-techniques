@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="{{ url_for ('static',filename='mmm.css')}}">
+    <title>Prediction Center</title>
+</head>
+<body>
+    
+    <div class="bac">
+    <form action="/predict">
+       
+        <h2 class="top">Hello {{name}},</h2>
+        <h2 class="bottom">Please enter your details....</h2>
+        <label for="" class="l1">Age: </label> <input type="text" class="i1" name="apple"><br>
+        <label for="" class="l2">Sex: </label><select required name="b" class="i2">
+            <option value="">None</option>
+            <option value="">male</option>
+            <option value="">female</option>
+        </select><br>
+        <label for="" class="l3">Cp: </label><select required name="c" class="i3">
+            <option value="">None</option>
+            <option value="">asymptomatic</option>
+            <option value="">atypical angina</option>
+            <option value="">non-anginal pain</option>
+            <option value="">typical angina</option>
+        </select><br>
+        <label for="" class="l4">Trestbps: </label><input type="text" class="i4" name="d"><br>
+        <label for="" class="l5">Chol: </label><input type="text" class="i5" name="e"><br>
+        <label for="" class="l6">Fbs: </label><select required name="f" class="i6">
+            <option value="">None</option>
+            <option value="">yes</option>
+            <option value="">No</option>
+        </select><br>
+        <label for="" class="l7">Restecg: </label><select required name="g" class="i7">
+            <option value="">None</option>
+            <option value="">left ventricular hypertrophy </option>
+            <option value="">normal</option>
+            <option value="">abnormality</option>
+        </select><br>
+        <label for="" class="l8">Thalach: </label><input type="text" class="i8" name="h"><br>
+        <label for="" class="l9">oldpeak:  </label><input type="text" class="i9" name="i"><br>
+        <label for="" class="l10">Slope: </label><select required name="j" class="i10">
+            <option value="">None</option>
+            <option value="">downsloping</option>
+            <option value="">flat</option>
+            <option value="">upsloping</option>
+        </select><br>
+        <label for="" class="l11">Ca: </label><input type="text" class="i11" name="k"><br>
+        <label for="" class="l12">Thal: </label><select required name="l" class="i12">
+            <option value="">None</option>
+            <option value="">NULL</option>
+            <option value="">fixed defect</option>
+            <option value="">normal blood flow</option>
+            <option value="">reversible defect</option>
+            
+        </select><br>
+        <input type="submit" class="sub" value="Predict" onclick="khyathi()">
+
+        
+        
+    </form>
+    <a href="/input" class="yy">To Know More About Input Details</a>
+    <div class="row">
+        
+</div>
+<form action="">
+   <h1 class="na">{{na}}</h1>
+   
+</form>
+</body>
+</html>

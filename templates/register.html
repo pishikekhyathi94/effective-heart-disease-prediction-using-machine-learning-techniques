@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for ('static',filename='sss.css')}}">
+</head>
+<body>
+<div class="a">
+   <form action="/register">
+       
+      <h1 class="f1">Register</h1>
+      <label for="" class="name">Name:</label>
+      <input type="text" name="names" class="name1">
+      <label for="" class="mail">Email:</label>
+      <input type="text" name="mails" class="mail1">
+      <label for="" class="pass">Password:</label>
+      <input type="password" name="passwords" class="pass1">
+      <input type="submit" name="" class="sub1">
+  
+ </div>
+</form>
+<h1 class="already">{{var}}</h1>
+<h1 class="inv">{{k}}</h1>
+</body>
+</html>

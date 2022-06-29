@@ -1,0 +1,31 @@
+.res{
+    background-image: linear-gradient(90deg,white,rgb(220 254 255));
+    height:800px;
+    width:100%;
+}
+.image1{
+    position:relative;
+    left:500px;
+    top:100px;
+    width:600px;
+    height:500px;
+}
+.image2{
+    position:relative;
+    left:500px;
+    top:100px;
+    width:600px;
+    height:500px;
+}
+.she{
+    position:relative;
+    left:500px;
+    top:40px;
+    color: green;
+}
+.he{
+   position:relative;
+    left:200px;
+    top:40px; 
+    color: red;
+}

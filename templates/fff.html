@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heart disease prediction center</title>
+    <link rel="stylesheet" href="{{ url_for ('static',filename='kkk.css')}}">
+    
+    
+</head>
+<body>
+    <div class="background">
+        <div class="sub">
+            <img src="{{ url_for ('static',filename='logo.png')}}" alt="nothing" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="/regis">Register</a></li>
+                    <li><a href="/model">model details</a></li>
+                    <li><a href="/">Dark mode</a></li>
+                    <li><a href="/aboutus">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="names">
+            <form action="/second" >
+                <div id="real">
+                    <div class="registration"><h1>Login</h1></div>
+                    <label for="" class="firstlabel" >Name: </label>
+                    <input type="text" class="first" name="user">
+                    <label for="" class="mail">Email: </label>
+                    <input type="email" class="ail" name="mi" value="">
+                    <input type="submit",value='Next' class="butto">
+                    
+            </div>
+        </form>
+
+        </div>
+    </div>
+ <h1 class="u">{{jar}}</h1>
+ <h1 class="q">{{l}}</h1>
+   <h1>{{pis}}</h1>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.background{
+
+    background-image: linear-gradient(90deg,white,#eaf7fd);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.logo{
+    width: 40vh;
+    cursor: pointer;
+}
+.sub{
+    
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    padding-top: 5%;
+}
+nav{
+    
+    flex: 1;
+    padding-left: 40%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+    font-size:20px;
+}
+.registration{
+    margin-left: 8%;
+    background-color: transparent;
+    color: rgb(1 112 121);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    padding-top:70px;
+    padding-left: 85px;
+
+}
+.names{
+    background-image: url('hello.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 5%;
+    height: 80%;
+}
+.firstlabel{
+    position: relative;
+    background-color: transparent;
+    left: 60px;
+    top: 40px;
+    color:rgb(1 112 121);
+    font-size: 20px;
+
+}
+.first{
+    position: relative;
+    background-color: transparent;
+    left: 70px;
+    line-height: 30px;
+    top: 40px;
+    color: black;
+    border-radius: 6px;
+    width: 300px;
+    font-size: 18px;
+    outline: rgb(182, 182, 181);
+}
+.mail{
+    position:relative;
+    background-color:transparent;
+    left: -310px;
+    top:110px;
+    color:rgb(1 112 121);
+    font-size:20px;
+
+    
+}
+.ail{
+    position: relative;
+    background-color: transparent;
+    left: -300px;
+    top: 110px;
+    line-height: 30px;
+    border-radius: 6px;
+    color: black;
+    font-size: 18px;
+    width: 300px;
+    outline: rgb(182, 182, 181);
+}
+.butto{
+    position: relative;
+    background-color: transparent;
+    left: -520px;
+    top: 180px;
+    line-height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: rgb(1 112 121);
+}
+.u{
+    position:relative;
+    top:-590px;
+    left:280px;
+   font-size:20px;
+   color:#8a8484;
+}
+.q{
+    position:relative;
+    top:-675px;
+    left:300px;
+    font-size:20px;
+    color:#8a8484; 
+}
+
+
+
+

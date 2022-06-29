@@ -1,0 +1,21 @@
+
+
+@app.route('/predict',methods=['POST','GET'])
+def coll():
+    
+    a=request.form.get('apple',type=int)
+    b=request.form.get('b',type=int)
+    c=request.form.get('c',type=int)
+    d=request.form.get('d',type=int)
+    e=request.form.get('e',type=int)
+    f=request.form.get('f',type=int)
+    g=request.form.get('g',type=int)
+    h=request.form.get('h',type=int)
+    i=request.form.get('i',type=int)
+    j=request.form.get('j',type=int)
+    k=request.form.get('k',type=int)
+    l=request.form.get('l',type=int)
+    data=[[a,b,c,d,e,f,g,h,i,j,k,l]]
+    lr=pickle.load(open('heart.pkl','rb'))
+    prediction=lr.predict(data)[0]
+    return render_template('second.html',prediction=prediction)
